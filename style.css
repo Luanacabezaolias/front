@@ -42,4 +42,28 @@ nav{
 
 nav ul li a{
     color: #fff;
+    text-decoration: none;
 }
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+article{
+    display: flex;
+}
+
+section h1{
+    padding: 20px;
+    /*padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;*/
+}
+
+article img{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
